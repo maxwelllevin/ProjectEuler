@@ -9,36 +9,24 @@ Created on Tue Sep  5 19:07:49 2017
 """
 
 
-def sum_of_squares(limit):
-    """Returns the sum of the squares of the naturals from 1 to 'limit'
-        Ex: limit = 3
-            1*1 + 2*2 + 3*3 = 14 """
-    # Create variable to store the sum
-    sum = 0
-    
-    # Iterate through naturals within our specified range
-    for number in range (1, limit + 1):
-        sum += number ** 2
-    
-    # Return the sum
-    return sum
+def sum_of_squares(lim):
+	"""Returns the sum of the squares of the naturals from 1 to 'limit'
+		Ex: limit = 3
+			1*1 + 2*2 + 3*3 = 14 """
+	result = 0
+	for number in range(1, lim + 1):
+		result += number**2
+	return result
 
 
-
-def square_of_sums(limit):
-    """Returns the square of the sums of the naturals from 1 to 'limit'
-        Ex: limit = 3
-            (1 + 2 + 3)^2 = 36 """
-    # Create a variable to store the sum
-    sum = 0
-    
-    # Iterate through the naturals within our specified range
-    for number in range(1, limit + 1):
-        sum += number
-    
-    # Return the square of the sum
-    return sum ** 2
-
+def square_of_sums(lim):
+	"""Returns the square of the sums of the naturals from 1 to 'limit'
+		Ex: limit = 3
+			(1 + 2 + 3)^2 = 36 """
+	result = 0
+	for number in range(1, lim + 1):
+		result += number
+	return result**2
 
 
 # ======= Test our functions with 'limit = 100' ======= #
@@ -51,4 +39,3 @@ square_sums = square_of_sums(limit)
 print("The sum of squares =", sum_squares)
 print("The square of sums =", square_sums)
 print("The difference between the two is:", square_sums - sum_squares)
-
