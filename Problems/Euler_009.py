@@ -28,7 +28,6 @@ def make_perfect_squares(limit=100, square_list=[]):
 	return square_list
 
 
-# TODO: Find triplets such that a + b = c, where a,b,c all squares
 def find_pythagorean_triplets(square_limit=1000000):
 	""" Returns a list containing lists of pythagorean triplets """
 	# Create a list of perfect squares and a list to store our triplets
@@ -55,7 +54,6 @@ def find_pythagorean_triplets(square_limit=1000000):
 	return pythag_triplets
 
 
-# TODO: Find triplets such that a**0.5 + b**0.5 + c**0.5 = 1000, where a,b,c all squares
 def add_pythag_list(pythag_triplets=[], sum_value=1000):
 	""" Returns a list of triplets which satisfy a + b + c = sum_value"""
 	# Create a list to contain triplets and triplet solutions
