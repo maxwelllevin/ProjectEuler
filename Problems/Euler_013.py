@@ -3,7 +3,7 @@
 Euler #13
 Large Sum
 
-Created on Wed Feb 28 2017
+Created on Wed Feb 28 2018
 
 @author: Maxwell
 """
