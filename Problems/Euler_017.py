@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Euler #14
+Euler #17
 Number Letter Counts
 
 Created on Sun Mar 11 2018

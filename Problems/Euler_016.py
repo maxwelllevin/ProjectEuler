@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Euler #15
+Euler #16
 Power Digit Sum
 
 Created on Sun Mar 11 2018
